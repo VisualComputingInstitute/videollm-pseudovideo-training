@@ -1,0 +1,9 @@
+q_generators_args:  
+  fr_level_annotate:
+    min_scenes_per_question: 2
+    max_scenes_per_question: 7
+    min_frames_per_scene: 1
+    max_frames_per_scene: 5
+    enforced_len: 100000
+    num_distractors: 3
+    mc_question_prob: 0

@@ -1,0 +1,17 @@
+coco_base_path: "/p/project1/objectsegvideo/ali/UVS_workspace/dataset_images/\
+  training/coco"
+mask_pngs_base_path: "/p/project1/objectsegvideo/ali/UVS_workspace/\
+  dataset_annotations/panoptic_train2017"
+coco_captions_json: "/p/project1/efficientvid/workspaces/longvu_workspace/\
+  training_data/coco_annotations/captions_train2017.json"
+coco_objs_json: "/p/project1/efficientvid/workspaces/longvu_workspace/\
+  training_data/coco_annotations/panoptic_train2017.json"
+data_type_per_generator:
+  before_or_after: "no_masks"  
+  scenes_descr: "no_masks"
+  which_first_last: "no_masks"
+  which_is_or_isnt: "no_masks"
+  descr_adjacent_scene: "no_masks"
+  count_scenes: "no_masks"
+  describe_nth_scene: "no_masks"
+  fr_level_annotate: "no_masks"

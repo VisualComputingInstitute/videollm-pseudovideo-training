@@ -1,0 +1,23 @@
+q_generators_args:
+  scenes_descr:
+    min_scenes_per_question: 2
+    max_scenes_per_question: 4
+    min_frames_per_scene: 1
+    max_frames_per_scene: 20
+    enforced_len: 33333
+    num_distractors: 3
+  before_or_after:
+    min_scenes_per_question: 2
+    max_scenes_per_question: 4
+    min_frames_per_scene: 1
+    max_frames_per_scene: 5
+    enforced_len: 33333
+  which_first_last:
+    num_distractors: 3
+    min_choices: 2
+    max_choices: 4
+    min_scenes_per_question: 2
+    max_scenes_per_question: 6
+    min_frames_per_scene: 1
+    max_frames_per_scene: 5
+    enforced_len: 33333    

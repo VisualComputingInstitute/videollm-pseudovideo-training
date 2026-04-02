@@ -1,0 +1,15 @@
+q_generators_args:
+  scenes_descr:
+    min_scenes_per_question: 2
+    max_scenes_per_question: 5
+    min_frames_per_scene: 1
+    max_frames_per_scene: 5
+    enforced_len: 100000
+    num_distractors: 3
+  before_or_after:
+    min_scenes_per_question: 2
+    max_scenes_per_question: 5
+    min_frames_per_scene: 1
+    max_frames_per_scene: 5
+    enforced_len: 100000
+    mc_question_prob:

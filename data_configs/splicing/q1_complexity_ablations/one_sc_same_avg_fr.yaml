@@ -1,0 +1,8 @@
+q_generators_args:
+  scenes_descr:
+    min_scenes_per_question: 1
+    max_scenes_per_question: 1
+    min_frames_per_scene: 2
+    max_frames_per_scene: 16
+    enforced_len: 100000
+    num_distractors: 3

@@ -1,0 +1,10 @@
+coco_base_path: "/globalwork/datasets/coco/train2017"
+mask_pngs_base_path: "/globalwork/datasets/coco/panoptic_train2017"
+coco_captions_json: "/globalwork/datasets/coco/annotations/\
+  captions_train2017.json"
+coco_objs_json: "/globalwork/datasets/coco/annotations/panoptic_train2017.json"
+data_type_per_generator:
+  before_or_after: "no_masks"
+  scenes_descr: "no_masks"
+  which_first_last: "no_masks"
+  which_is_or_isnt: "no_masks"
